@@ -41,3 +41,4 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'zengin_code', require: false
 gem 'search_cop'
+gem 'active_model_serializers'
