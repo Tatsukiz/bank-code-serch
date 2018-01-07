@@ -1,6 +1,6 @@
 class BranchesController < ApplicationController
+  before_action :set_bank
   before_action :set_branch, only: [:show, :update, :destroy]
-
   # GET /branches
   def index
     @branches = Branch.all
@@ -18,7 +18,7 @@ class BranchesController < ApplicationController
     @branch = Branch.new(branch_params)
 
     if @branch.save
-      render json: @branch, status: :created, location: @branch
+      render json: @branch, status: :created, location: [@branch, @bank]
     else
       render json: @branch.errors, status: :unprocessable_entity
     end
