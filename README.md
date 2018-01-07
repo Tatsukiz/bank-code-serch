@@ -1,24 +1,10 @@
-# README
+# Just Practice for understanding ruby gem('search_cop','active_model_serializers').
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
 
-Things you may want to cover:
 
-* Ruby version
+I based on Qiita article, [Zengin Code Search API on Rails](https://qiita.com/ogomr/items/91f34cf6f2e7aefa155e).
 
-* System dependencies
 
-* Configuration
+# ruby gem('search_cop','active_model_serializers')の練習の為に作りました。
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+こちらのQiitaの記事、[Zengin Code Search API on Rails](https://qiita.com/ogomr/items/91f34cf6f2e7aefa155e)を参考に勉強を進めさせて頂きました。
