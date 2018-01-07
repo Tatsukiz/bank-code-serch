@@ -41,7 +41,7 @@ class BanksController < ApplicationController
   private
     # Use callbacks to share common setup or constraints between actions.
     def set_bank
-      @bank = Bank.find(params[:id])
+      @bank = Bank.find_by(code: params[:code])
     end
 
     # Only allow a trusted parameter "white list" through.

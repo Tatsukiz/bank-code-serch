@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  resources :banks do
-    resources :branches
+  resources :banks, param: :code do
+    resources :branches, param: :code
   end
 end
